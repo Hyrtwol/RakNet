@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c195afe4-c98b-4030-92e0-556f928c579b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GFx3">
+      <UniqueIdentifier>{6c3120ef-5d5d-4fba-86e9-bab2bceb80eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lobby2">
+      <UniqueIdentifier>{6314d59e-da64-4207-859c-90e9749a4866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RoomsPlugin">
+      <UniqueIdentifier>{d97c9b5c-8c9d-4947-98c6-c1d550388278}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\RoomsBrowserGFx3.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomsBrowserGFx3_RakNet.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DependentExtensions\XML\xmlParser.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GFxPlayerTinyD3D9.cpp">
+      <Filter>GFx3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DependentExtensions\Lobby2\Rooms\IntervalTimer.cpp">
+      <Filter>RoomsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DependentExtensions\Lobby2\Rooms\ProfanityFilter.cpp">
+      <Filter>RoomsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomsContainer.cpp">
+      <Filter>RoomsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomsErrorCodes.cpp">
+      <Filter>RoomsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomsPlugin.cpp">
+      <Filter>RoomsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomTypes.cpp">
+      <Filter>RoomsPlugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\RoomsBrowserGFx3.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomsBrowserGFx3_RakNet.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DependentExtensions\XML\xmlParser.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DependentExtensions\Lobby2\Rooms\IntervalTimer.h">
+      <Filter>RoomsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DependentExtensions\Lobby2\Rooms\ProfanityFilter.h">
+      <Filter>RoomsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomsContainer.h">
+      <Filter>RoomsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomsErrorCodes.h">
+      <Filter>RoomsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomsPlugin.h">
+      <Filter>RoomsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DependentExtensions\Lobby2\Rooms\RoomTypes.h">
+      <Filter>RoomsPlugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+</Project>
